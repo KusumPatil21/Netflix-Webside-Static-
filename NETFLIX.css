@@ -1,0 +1,435 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(./IMG2/back5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+#left{
+
+    margin-left:10px ;
+    
+}
+#right{
+
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+#right > button{
+
+    padding: 12px  24px;
+    border: none;
+    background-color: rgba(229, 12, 12, 0.895);
+    border-radius: 5px;
+    color: aliceblue;
+    
+
+}
+#left > h1{
+
+    color: white;
+    font-size: 2rem;
+    
+}
+select{
+
+    border: 1px solid gray;
+    padding:11px 14px;
+    border-radius: 5px;
+    margin-right: 15px;
+    
+}
+
+#home{
+
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+}
+
+#home > h1{
+    
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:white ;
+    
+}
+
+#home > p{
+    font-size: 1.66rem;
+    color: white;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+    
+}
+#home > input {
+    
+    width: 30%;
+    padding: 20px;
+    border: 2px solid rgba(224, 219, 219, 0.806);
+    border-radius: 5px;
+    background-color: rgba(232, 219, 219, 0.042);
+    color: gray;
+    margin-left: 20px;
+}
+#home > button{
+ 
+    
+    padding: 16px 50px;
+    background-color: rgba(176, 16, 16, 0.888);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+  /* ------------------------------enjoy Section -------------------------------- */
+#enjoy{
+    background-color: black;
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    width: 100%;
+    margin: auto ;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+#text{
+   
+    width: 34%;
+    color: white;
+    padding-left: 3rem;
+   
+
+
+}
+
+#text > h1{
+    font-size:3.5rem;
+    margin:0;
+    font-weight: 900;
+}
+
+#text > p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+#media{
+    width: 38%;
+    position: relative;
+    margin-left: 7rem;
+}
+
+#media > img{
+    width: 100%;
+    position: relative;
+    top:-2%;
+    left:-16% ;
+    z-index: 2;
+}
+#media > video{
+    position: absolute;
+    top:20%;
+    width: 73%;
+    left: -3%;
+
+
+}
+
+
+/*---------------------------- download section------------------------------------------ */
+#download{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+#download > #mo{
+
+    width: 41%;
+    
+}
+
+#mo > img{
+
+    width: 90%;
+}
+
+#download > #mo-cont{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    display: flex;
+    height:100px ;
+    width: 22%;
+    position: absolute;
+    top: 17rem;
+    left:15rem ;
+    background-color: black;
+}
+#mo-cont > #strange{
+    width: 23%;
+    margin-left: 10px;
+}
+#mo-cont > #strange> img{
+    width: 100%;
+}
+#mo-cont> #txt
+{
+    width: 47%;
+    margin-left: 10px;
+}
+#mo-cont> #txt >h2{
+
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 0px;
+    color: white;
+}
+#mo-cont> #txt >p{
+
+    font-size: 1rem;
+    font-weight: 100;
+    color: blue;
+    margin-top: 0px;
+}
+
+#mo-cont>#dwn{
+    width: 13%;
+    margin-left: 9px;
+    padding-top: 1rem;
+}
+#mo-cont>#dwn> img{
+    width: 100%;
+}
+
+#download > #mo-text{
+
+    width: 36%;
+    padding-right: auto;
+    color: white;
+
+}
+
+#mo-text >h1{
+
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+#mo-text >p{
+
+    font-size: 1.5rem;
+  
+}
+
+/* ---------------------------------watch section--------------------------------------- */
+#watch{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    background-color: black;
+}
+#watch > #watch-txt{
+         width: 36%;
+         margin-top: 1rem;
+}
+
+#watch-txt >h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0rem;
+    color: white;
+}
+
+#watch-txt > p{
+
+    font-size: 2rem;
+    color: white;
+}
+
+#watch >#watch-tv{
+    width:38%;
+    position: relative;
+   
+    
+}
+
+#watch-tv > img{
+    
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    
+}
+
+#watch-tv > video{
+
+    position: absolute;
+    top:2rem;
+    left: 5rem;
+    width: 65%;
+}
+
+/* --------------------------------Kids Section---------------------------------------------- */
+
+#kids{
+
+    display: flex;
+    justify-content: center;
+    padding-top:3.8rem;
+    padding-bottom: 2rem;
+    background-color: black;
+}
+
+#kids > #kid-img{
+
+    width: 38%;
+}
+
+#kids > #kid-img > img{
+
+    width: 100%;
+}
+
+#kids > #kid-txt{
+
+    width: 40%;
+}
+
+#kid-txt> h1{
+
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 0rem;
+    color: white;
+}
+
+#kid-txt> p{
+
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+}
+
+
+/* ------------------------------------------ Question Section ---------------------------------------------- */
+
+#qus{
+
+   padding: auto;
+   background-color: black;
+   color: white;
+
+}
+
+#qus > div{
+
+    margin: auto;
+    width: 80%;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.33);
+}
+#qus > div > h2{
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#qus > h1{
+
+    margin: 2rem auto 2rem 30rem;
+}
+
+#qus > #last-div > input{
+
+    background-color: rgba(72, 71, 71, 0.291);
+    width: 35%;
+    padding: 20px;
+    border: 2px solid gray;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+
+#qus > #last-div > button
+{
+    padding: 16px 50px;
+    background-color: #b70505;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#qus > #last-div{
+
+    margin: auto auto auto 13rem;
+    padding-bottom: 5rem;
+    background-color: black;
+    align-items: center;
+}
+
+#qus > #last-div> p{
+
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+
+
+
+/* ------------------------------------------------- Footer Section --------------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+}
+footer > div > ul >  li
+{
+    list-style-type: none;
+    line-height: 2rem;
+    color: #c0bebee1;
+   
+}
+footer > div > ul >  li> a{
+
+    color: #c0bebee1;
+
+}
+
+footer > div > #f-div1 >  li:nth-child(5)
+{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
